@@ -1,0 +1,49 @@
+a{
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 2em;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 5em;
+}
+a:focus{
+    font-size: 5em;
+}
+a:active{
+    color: fuchsia;  
+}
+.series2 a:hover{
+    color: plum;
+}
+.series2 a:active{
+    background-color: goldenrod;
+}
+
+.helper:hover{
+    color: red;
+}
+.tooltip{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    display: none;
+    color: #666;
+    font-size: 3em;
+    padding: 20px;
+}
+.helper:hover .tooltip{
+    display: block;
+}
+.parent{
+    border: 2px solid plum;
+}
+.parent div:first-child{
+    display: none;
+}
+.parent:hover :first-child{
+    display: block;
+}
